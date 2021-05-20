@@ -100,5 +100,3 @@ c3.php
 !.yarn/releases/
 !.yarn/plugins/
 
-# Docker
-docker
