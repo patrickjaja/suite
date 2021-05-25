@@ -97,8 +97,10 @@ groups:
                 endpoints:
                     glue.de.spryker.local:
                         store: DE
+                        cors-allow-origin: "*"
                     glue.at.spryker.local:
                         store: AT
+                        cors-allow-origin: "*"
             zed_eu:
                 application: zed
                 endpoints:
@@ -129,6 +131,7 @@ groups:
                 endpoints:
                     glue.us.spryker.local:
                         store: US
+                        cors-allow-origin: "*"
             zed_us:
                 application: zed
                 endpoints:

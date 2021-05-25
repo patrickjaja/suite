@@ -604,3 +604,4 @@ $config[SecurityBlockerConstants::SECURITY_BLOCKER_BLOCKING_NUMBER_OF_ATTEMPTS] 
 
 $config[SecurityBlockerConstants::SECURITY_BLOCKER_AGENT_BLOCK_FOR] = 360;
 $config[SecurityBlockerConstants::SECURITY_BLOCKER_AGENT_BLOCKING_NUMBER_OF_ATTEMPTS] = 9;
+$config[CustomerConstants::REGISTRATION_CONFIRMATION_TOKEN_URL] = 'http://localhost:3000/?token=%s';
